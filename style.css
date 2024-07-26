@@ -61,7 +61,7 @@ main {
 
 .text-hero h1 {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 64px;
   font-weight: 900;
 }
@@ -79,6 +79,38 @@ footer {
   padding: 30px 115px;
 }
 
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 61px 0;
+}
+
+.content img {
+  width: 172px;
+  height: 117px;
+}
+
+.content .about {
+  width: 50%;
+  height: 159px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.about h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.about p {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .credits {
   width: 100%;
   padding: 15px 115px;
@@ -86,4 +118,9 @@ footer {
   text-align: center;
   position: absolute;
   left: 0;
+  font-weight: bold;
+}
+
+.credits span{
+  color: #610588;
 }
