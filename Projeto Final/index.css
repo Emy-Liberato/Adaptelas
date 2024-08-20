@@ -1,6 +1,6 @@
 /* main */
-main{
-    margin-bottom: 3rem;
+main {
+  margin-bottom: 3rem;
 }
 
 /* banner */
@@ -28,15 +28,14 @@ main{
 }
 
 /* div-cards */
-.div-cards{
-    margin: 0 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
+.div-cards {
+  margin: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
-
 
 /* card */
 .card {
@@ -46,7 +45,7 @@ main{
 .cabecalho {
   background-color: var(--roxo);
   color: var(--branco);
-  border-radius: 2rem 2rem 0 0 ;
+  border-radius: 2rem 2rem 0 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -60,45 +59,57 @@ main{
   object-fit: cover;
 }
 
-.cabecalho > h2{
-    font-size: 2rem;
-    margin: 0 0.5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cabecalho > h2 {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.conteudo{
-    background-color: var(--claro-roxo);
-    color: var(--roxo);
-    border-radius: 0 0 1.5rem 1.5rem;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.conteudo {
+  background-color: var(--claro-roxo);
+  color: var(--roxo);
+  border-radius: 0 0 1.5rem 1.5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .conteudo > p {
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin: 1rem 0 3rem 0;
-    min-width: 3rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 1rem 0 3rem 0;
+  min-width: 3rem;
 }
 
-.rodape{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 1.5rem;
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
 }
 
 .estrelas > button {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
-.marcada{
-    color: var(--roxo);
+.marcada {
+  color: var(--roxo);
+}
+
+/* responsividade */
+@media screen and (max-width: 600px) {
+  .banner > img {
+    width: 200px;
+    margin-right: 1rem;
+  }
+  .banner > h2 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
 }
