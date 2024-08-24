@@ -79,16 +79,17 @@ main {
 }
 
 /* botão */
-#abrirmodal {
-    border: none;
-    background-color: var(--roxo);
-    color: var(--branco);
-    width: 10rem;
-    height: 3rem;
-    border-radius: 2rem;
-    font-weight: 800;
-    font-size: 1rem;
-    cursor: pointer;
+#abrir-modal{
+  border: none;    
+  background-color: var(--roxo);
+  color: var(--branco);
+  font-size: 1rem;
+  font-weight: 800;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
 }
 
 /* modal */
@@ -153,7 +154,7 @@ input::placeholder{
     padding-left: 0;
 }
 
-forms > button {
+form > button {
     border: none;
     color: var(--roxo);
     font-weight: 700;
