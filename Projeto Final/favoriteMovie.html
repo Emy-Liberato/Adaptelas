@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Cinema</title>
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="favoriteMovie.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
@@ -17,6 +20,7 @@
         </li>
       </ul>
     </header>
+
     <main>
       <div class="div-informacoes">
         <h2 id="nome">Divertidamente 2</h2>
@@ -34,6 +38,7 @@
           </p>
         </div>
       </div>
+
       <div class="div-personagens">
         <h2>Personagens</h2>
         <div class="cards">
@@ -51,32 +56,58 @@
           </div>
         </div>
       </div>
-      <button id="abrir-modal">Editar Filme</button>
 
+      <button id="abrir-modal">Editar Filme</button>
       <div class="div-modal escondida" id="modal">
         <div>
-            <h2>Adicionar Filme</h2>
+          <h2>Adicionar Filme</h2>
           <form action="" id="novo-filme">
             <label for="novo-nome">Nome</label>
             <input type="text" placeholder="Nome do filme" id="novo-nome" />
 
             <label for="nova-data">Data</label>
-            <input type="date" placeholder="Data em que assisti" id="nova-data"/>
+            <input
+              type="date"
+              placeholder="Data em que assisti"
+              id="nova-data"
+            />
 
             <label for="nova-descricao">Descrição</label>
-            <input type="text" placeholder="Descrição do filme" id="nova-descricao"/>
+            <input
+              type="text"
+              placeholder="Descrição do filme"
+              id="nova-descricao"
+            />
 
             <label for="novo-p1">Nome do Personagem 1</label>
-            <input type="text" placeholder="Nome do personagem um" id="novo-p1"/>
+            <input
+              type="text"
+              placeholder="Nome do personagem um"
+              id="novo-p1"
+            />
             <label for="nova-imagem-p1">Imagem do Persnagem 1</label>
-            <input type="file" placeholder="Imagem do personagem um" id="nova-imagem-p1" class="input-arquivo"/>
+            <input
+              type="file"
+              placeholder="Imagem do personagem um"
+              id="nova-imagem-p1"
+              class="input-arquivo"
+            />
 
             <label for="novo-p2">Nome do Personagem 2</label>
-            <input type="text" placeholder="Nome do personagem dois" id="novo-p2"/>
+            <input
+              type="text"
+              placeholder="Nome do personagem dois"
+              id="novo-p2"
+            />
             <label for="nova-imagem-p2">Imagem do Persnagem 2</label>
-            <input type="file" placeholder="Nome do personagem dois" id="nova-imagem-p2" class="input-arquivo"/>
+            <input
+              type="file"
+              placeholder="Nome do personagem dois"
+              id="nova-imagem-p2"
+              class="input-arquivo"
+            />
 
-            <button id="salvar"> Salvar</button>
+            <button id="salvar">Salvar</button>
           </form>
         </div>
       </div>

@@ -79,8 +79,8 @@ main {
 }
 
 /* botão */
-#abrir-modal{
-  border: none;    
+#abrir-modal {
+  border: none;
   background-color: var(--roxo);
   color: var(--branco);
   font-size: 1rem;
@@ -118,53 +118,53 @@ main {
 }
 
 .div-modal > div > h2 {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
 }
 
-input{
-    width: 19rem;
-    border: none;
-    color: var(--roxo);
-    padding-left: 0.5rem;
-    text-align: center;
-    border-radius: 2rem;
-    font-weight: 700;
-    height: 1.5rem;
+input {
+  width: 19rem;
+  border: none;
+  color: var(--roxo);
+  padding-left: 0.5rem;
+  text-align: center;
+  border-radius: 2rem;
+  font-weight: 700;
+  height: 1.5rem;
 }
 
-input::placeholder{
-    border: none;
-    color: var(--roxo);
-    font-weight: 700;
-    text-align: center;
+input::placeholder {
+  border: none;
+  color: var(--roxo);
+  font-weight: 700;
+  text-align: center;
 }
 
-.input-arquivo{
-    color: var(--branco);
-    border-radius: 0;
-    padding-left: 0;
+.input-arquivo {
+  color: var(--branco);
+  border-radius: 0;
+  padding-left: 0;
 }
 
 form > button {
-    border: none;
-    color: var(--roxo);
-    font-weight: 700;
-    width: 15rem;
-    border-radius: 2rem;
-    margin-bottom: 1.5rem;
+  border: none;
+  color: var(--roxo);
+  font-weight: 700;
+  width: 15rem;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .escondida {
-    display: none;
+  display: none;
 }
 
 /* responsividade */
